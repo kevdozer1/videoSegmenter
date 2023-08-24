@@ -1,6 +1,8 @@
-# Scene, Shot, Sub-shot Detection
+# Video Segmenter
 
-This application written in python can detect changes in scenes, shots and sub-shots. By providing the user with an index of the same, the user is free to navigate the video at different levels of coarseness. 
+This python program automatically detects changes in scenes, shots, and subshots(camera movements) using OpenCV image processing data and scikit-learn clustering.
+The generated scene, shot, and subshot indices are fed into a GUI application made with PyQT5 to play the source video alongside a hierarchical structure for visualizing the boundaries.
+The user is able to navigate the video and skip to various scenes, shots, or subshots through this hierarchical structure.
 
 ## Setup
 `pip install -r requirements.txt`
