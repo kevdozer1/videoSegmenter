@@ -1,6 +1,6 @@
 # Video Segmenter
 
-This python program automatically detects changes in scenes, shots, and subshots(camera movements) using OpenCV image processing data and scikit-learn clustering.
+This python program automatically detects changes in scenes, shots, and subshots(distinct camera movements) using OpenCV image processing data and scikit-learn clustering.
 
 The generated scene, shot, and subshot indices are fed into a GUI application made with PyQT5 to play the source video alongside a hierarchical structure for visualizing the boundaries.
 
